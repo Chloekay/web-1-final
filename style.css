@@ -1,0 +1,130 @@
+/* Phone landscape and portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) 
+
+/* Desktop*/
+@media only screen   
+and (min-width: 1370px)  
+and (max-width: 1605px)  
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+{
+    font-family: 'Cairo', sans-serif;
+}
+
+.bg-color, .btn-color:active, .btn-color:focus, .btn-color:hover
+{
+    background-color: #CCCCFF;
+    color: #fff !important;
+}
+
+nav, li.nav-item
+{
+    font-size: 1.3rem;
+}
+
+nav a.navbar-brand
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+p
+{
+    font-size: 1.5rem;
+}
+
+.name-section-avatar-img{
+    width: 16rem;
+}
+
+section#about .linkColor
+{
+    color: #000;
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input.form-control, textarea.form-control
+{
+    color: #212529;
+    font-size: 1.5rem;
+}
+
+.form-control:focus,
+.btn:focus
+{
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #212529;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: lighter;
+    font-size: x-large;
+}
+.form-control:-moz-placeholder {
+    color: #212529;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: lighter;
+    font-size: x-large;
+}
+.form-control::-moz-placeholder {
+    color: #212529;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: lighter;
+    font-size: x-large;
+}
+.form-control::placeholder {
+    color: #212529;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: lighter;
+    font-size: x-large;
+}
+.form-control:-ms-input-placeholder {
+    color: #212529;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+textarea
+{
+    resize: none;
+    display:block;
+}
+
+footer
+{
+    background-color: #34373A;
+    color: #fff;
+}
+
+.btn-social {
+    border-width: 0.15rem;
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
